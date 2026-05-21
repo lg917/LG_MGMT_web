@@ -1,5 +1,8 @@
 const translations = {
   en: {
+    brandLine: "Independent AI advisory · Available for new engagements",
+    clientsLabel: "Trusted by operators and founders at",
+    contactKicker: "Get in touch",
     navOffer: "Offer",
     navProof: "Proof",
     navContact: "Contact",
@@ -31,6 +34,9 @@ const translations = {
       "Reach out to discuss your company, your constraints, and where AI can create practical leverage."
   },
   fr: {
+    brandLine: "Conseil IA indépendant · Disponible pour de nouvelles missions",
+    clientsLabel: "Recommandé par des opérateurs et fondateurs chez",
+    contactKicker: "Prendre contact",
     navOffer: "Offre",
     navProof: "Preuves",
     navContact: "Contact",
@@ -90,3 +96,26 @@ buttons.forEach((button) => {
 });
 
 setLanguage(localStorage.getItem("lg-mgmt-language") || "en");
+
+const header = document.querySelector(".site-header");
+const onScroll = () => {
+  if (window.scrollY > 8) header.classList.add("is-scrolled");
+  else header.classList.remove("is-scrolled");
+};
+window.addEventListener("scroll", onScroll, { passive: true });
+onScroll();
+
+const revealEls = document.querySelectorAll(".reveal");
+if ("IntersectionObserver" in window) {
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        io.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+  revealEls.forEach((el) => io.observe(el));
+} else {
+  revealEls.forEach((el) => el.classList.add("is-visible"));
+}
