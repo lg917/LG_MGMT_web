@@ -6,32 +6,32 @@ const translations = {
     navOffer: "Offer",
     navProof: "Proof",
     navContact: "Contact",
-    heroTitle: "Navigate AI with business clarity.",
+    heroTitle: "Turn AI into business outcomes.",
     heroText:
-      "AI is overwhelming. It is a train not to be missed. I help you navigate today's technology and turn it into practical solutions for your business problems.",
-    cta: "Reach out for more info",
-    secondaryCta: "See the offer",
+      "AI is loud. Most of it won't move your P&L. I help you find the parts that do — and ship them.",
+    cta: "Start a conversation",
+    secondaryCta: "See how it works",
     offerKicker: "Offer",
-    offerTitle:
-      "Custom AI solutions tailored to your industry, business, teams, and capabilities.",
-    offerOneTitle: "Opportunity mapping",
-    offerOneText:
-      "Identify where AI creates measurable value, and where it creates distraction.",
-    offerTwoTitle: "AI-first architecture",
-    offerTwoText:
-      "Design workflows, tools, and operating models that fit your current reality.",
-    offerThreeTitle: "Execution support",
-    offerThreeText:
-      "Move from idea to adoption with practical prototypes, training, and governance.",
+    offerTitle: "Three layers. Pick one, stack two, or run the full sequence.",
+    offerLead:
+      "A modular engagement model. Each layer ships value on its own — and compounds with the next.",
+    offerOneTitle: "Map",
+    offerOneTag: "Standalone or foundation",
+    offerOneText: "Where AI moves your P&L — and where it won't.",
+    offerTwoTitle: "Architect",
+    offerTwoTag: "Builds on 01, or starts here",
+    offerTwoText: "Workflows, tooling, and operating models built for AI leverage.",
+    offerThreeTitle: "Ship",
+    offerThreeTag: "Drop-in or end-to-end",
+    offerThreeText: "From prototype to adoption: build, train teams, set guardrails.",
     proofKicker: "Proof",
-    proofTitle: "Built on transformation experience and business judgment.",
-    proofOne: "Expertise in digital transformation in PE-backed FMCG.",
-    proofTwo: "Serial entrepreneur with strong business acumen.",
-    proofThree: "AI-native and AI-first architecture mindset.",
-    contactTitle:
-      "Make AI useful for the problems already in front of you.",
+    proofTitle: "Operator-built. Business-first.",
+    proofOne: "Digital transformation lead, PE-backed FMCG.",
+    proofTwo: "Serial entrepreneur. P&L instincts.",
+    proofThree: "AI-native. AI-first by default.",
+    contactTitle: "Make AI useful for what's already on your plate.",
     contactText:
-      "Reach out to discuss your company, your constraints, and where AI can create practical leverage."
+      "A short call. Your context, your constraints — and where AI actually pays off."
   },
   fr: {
     brandLine: "Conseil IA indépendant · Disponible pour de nouvelles missions",
@@ -40,34 +40,32 @@ const translations = {
     navOffer: "Offre",
     navProof: "Preuves",
     navContact: "Contact",
-    heroTitle: "Naviguer l'IA avec clarté business.",
+    heroTitle: "Transformer l'IA en résultats business.",
     heroText:
-      "L'IA est déroutante. C'est un train à ne pas manquer. Je vous aide à naviguer les technologies actuelles et à les transformer en solutions concrètes pour vos enjeux business.",
-    cta: "Me contacter",
-    secondaryCta: "Voir l'offre",
+      "L'IA fait du bruit. L'essentiel ne bougera pas votre P&L. Je vous aide à identifier ce qui compte — et à le livrer.",
+    cta: "Démarrer la conversation",
+    secondaryCta: "Voir la méthode",
     offerKicker: "Offre",
-    offerTitle:
-      "Des solutions IA sur mesure, adaptées à votre industrie, votre business, vos équipes et vos capacités.",
-    offerOneTitle: "Cartographie des opportunités",
-    offerOneText:
-      "Identifier où l'IA crée une valeur mesurable, et où elle risque de distraire.",
-    offerTwoTitle: "Architecture AI-first",
-    offerTwoText:
-      "Concevoir des workflows, outils et modèles opérationnels adaptés à votre réalité.",
-    offerThreeTitle: "Accompagnement d'exécution",
-    offerThreeText:
-      "Passer de l'idée à l'adoption avec des prototypes pratiques, de la formation et de la gouvernance.",
+    offerTitle: "Trois niveaux. Un seul, deux, ou la séquence complète.",
+    offerLead:
+      "Un modèle d'intervention modulaire. Chaque niveau livre de la valeur seul — et s'enrichit avec le suivant.",
+    offerOneTitle: "Cartographier",
+    offerOneTag: "Autonome ou fondation",
+    offerOneText: "Là où l'IA bouge votre P&L — et là où elle ne le fera pas.",
+    offerTwoTitle: "Architecturer",
+    offerTwoTag: "Suite du 01, ou point de départ",
+    offerTwoText: "Workflows, outils et modèles opérationnels pensés pour l'IA.",
+    offerThreeTitle: "Livrer",
+    offerThreeTag: "Ponctuel ou de bout en bout",
+    offerThreeText: "Du prototype à l'adoption : construire, former, encadrer.",
     proofKicker: "Preuves",
-    proofTitle:
-      "Une approche fondée sur l'expérience de transformation et le jugement business.",
-    proofOne:
-      "Expertise en transformation digitale dans le FMCG sous environnement private equity.",
-    proofTwo: "Entrepreneur en série avec un fort sens business.",
-    proofThree: "Approche AI-native et architecture AI-first.",
-    contactTitle:
-      "Rendre l'IA utile pour les problèmes déjà devant vous.",
+    proofTitle: "Construit par un opérateur. Business d'abord.",
+    proofOne: "Transformation digitale, FMCG sous private equity.",
+    proofTwo: "Entrepreneur en série. Instinct P&L.",
+    proofThree: "AI-native. AI-first par défaut.",
+    contactTitle: "Rendre l'IA utile pour ce qui est déjà sur votre table.",
     contactText:
-      "Contactez-moi pour discuter de votre entreprise, vos contraintes, et des leviers pratiques que l'IA peut créer."
+      "Un appel court. Votre contexte, vos contraintes — et là où l'IA paie vraiment."
   }
 };
 
